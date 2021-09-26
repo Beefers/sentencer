@@ -1,0 +1,19 @@
+{
+  "name": "sentencer",
+  "version": "1.0.0",
+  "description": "A sentence bot",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "rm -rf dist; tsc; node dist/index.js"
+  },
+  "author": "Beef",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^16.9.6",
+    "typescript": "^4.4.3"
+  },
+  "dependencies": {
+    "discord.js": "^13.1.0",
+    "js-markov": "^3.0.3"
+  }
+}
